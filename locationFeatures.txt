@@ -1,0 +1,42 @@
+				Location features
+				-----------------
+mall
+railway station
+bus stop
+market
+accessibility
+metro
+parking area
+no. of people in that area
+Nearby restaurants
+bus stand
+Budget
+town
+city
+busy road
+college
+school
+offices
+hospital
+shops
+post office
+governent offices
+lodge
+park
+beach
+best area
+availibity of water
+drainage system
+hygiene
+chance of flood
+fire station
+network coverage area
+airport
+cinema theatre
+factories
+dispensary
+church
+temple
+mosque
+beauty parlour/barber shops
+housing colony
