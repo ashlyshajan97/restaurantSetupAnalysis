@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+
+.loc {
+	left: 0px;
+	top: -50px;
+}
+
+.loc i {
+	position: absolute;
+}
+
+.loc_name {
+	width: 50%;
+	height: 40px;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #0078b4;
+	border: 3px solid #333;
+	text-align: center;
+}
+
+.first {
+	width: 20%;
+	border: 1px solid #fff;
+	top: -600px;
+	float: left;
+}
+
+.second {
+	width: 80%;
+	border-top: 1px solid #aaa;
+	top: -600px;
+	display: inline-block;
+}
+
+.history_title {
+	top: -40px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Tajawal', sans-serif;
+	padding: 10px;
+	padding-left: 20px;
+	color: #0078b4;
+}
+
+.history {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Dosis', sans-serif;
+	line-height: 40px;
+	padding: 10px;
+	color: #333;
+}
+
+.rest_grp {
+	width: 100%;
+}
+
+.rest {
+	width: 46%;
+	height: 400px;
+	margin: 2%;
+	border: 1px solid #aaa;
+	top: -200px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	float: left;
+}
+
+.rest_title {
+    padding-top: 20px;
+    padding-left: 20px;
+	font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.rest_rating {
+	font-size: 17px;
+	font-family: 'Dosis', sans-serif;
+    padding-top: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+#rank {
+	width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: unset;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+	background: #4d97ff;
+}
+
+.sub_section {
+    text-align: center;
+}
+
+.section_title {
+    width: 50%;
+	height: 28px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0078b4;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+
+.section_content {
+	text-align: center;
+}
+
+.attr1 {
+	padding-left: 18px;
+	font-size: 20px;
+	float: left;
+}
+
+.attr2 {
+	padding-right: 10px;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.attr3 {
+	width: 90%;
+	height: 28px;
+	padding: 10px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Dosis', sans-serif;
+	color: #333;
+	border: 1px solid #ddd;
+	border-radius: unset;
+	border-left: none;
+	border-right: none;
+	background-color: #fff;
+	text-align: center;
+}
+
+input {
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	width: 50px;
+	height: 35px;
+}
+
+button {
+	border-radius: 75px;
+	background: #333;
+	height: 35px;
+	width: 30%;
+	color: #fff;
+	font-size: 18px;
+}

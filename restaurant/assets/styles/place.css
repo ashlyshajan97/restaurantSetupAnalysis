@@ -1,0 +1,40 @@
+.place
+{
+	width: 50%;
+	height: 150px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	top: -200px;
+}
+.place_title {
+	padding-left: 30px;
+	padding-top: 20px;
+	font-size: 20px;
+	font-weight: 30px;
+	height: 50px;
+	display: inline-grid;
+}
+.place_rank {
+	font-size: 20px;
+	font-weight: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	height: 50px;
+	float: right;
+}
+.place_features {
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	height: 100px;
+}
+
+input {
+	border: none;
+	border-radius: 10px;
+	width: 50px;
+	height: 35px;
+}
+
+#rank {
+	background: #333;
+}

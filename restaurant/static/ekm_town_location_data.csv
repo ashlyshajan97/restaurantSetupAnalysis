@@ -1,0 +1,59 @@
+District Name,Sub District Name,Town Name,Area (sq. km.),Number of Households,Total Population of Town,Railway Station Name,Railway Station Road Distance (in kms),Bus Route Name,Fire Fighting Service (Status A(1)/NA(2)),Electricity-Commercial Connection (Numbers) ,Electricity-Industrial Connection (Numbers),Hospital Allopathic (Numbers),Dispensary/Health Centre (Numbers),Total Health Centres,Govt. Senior Secondary School (Numbers),Private Senior Secondary School (Numbers) ,Total Senior Secondary Schools,Govt. Degree College-Art Only (Numbers),Private Degree College-Art Only (Numbers),Govt. Degree College-Science Only (Numbers),Private Degree College-Science Only (Numbers),Govt. Degree College-Commerce Only (Numbers),Private Degree College-Commerce Only (Numbers),Govt. Degree College-Art and Science Only (Numbers),Private Degree College-Art and Science Only (Numbers),"Govt. Degree College-Art,Science and Commerce (Numbers)","Private Degree College-Art,Science and Commerce (Numbers)",Govt. Degree College-Law (Numbers),Private Degree College-Law (Numbers),Govt.-Medical College (Numbers)),Private-Medical College (Numbers),Govt.-Engineering College (Numbers),Private-Engineering College (Numbers),Govt.-Management Institute (Numbers),Private-Management Institute (Numbers),Govt.-Polytechnic (Numbers),Private-Polytechnic (Numbers),Total Colleges,Govt.-Stadium (Numbers),Private-Stadium (Numbers),Total Stadiums,Govt.-Cinema Theatre (Numbers),Private-Cinema Theatre (Numbers),Total Cinema Theatres,Govt.-Auditorium/Community Hall (Numbers),Private-Auditorium/Community Hall (Numbers),Total Auditoriums
+ERNAKULAM,KUNNATHUNAD,Perumbavoor (M),13.61,7103,28110,Aluva,15,Perumbavoor,1,4593,585,1,4,5,3,1,4,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,3,1,0,1,0,5,5,0,10,10
+ERNAKULAM,KUNNATHUNAD,Koovappady (CT),17.29,7319,29339,Aluva,15,Koovappady,2,1104,371,0,2,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,1
+ERNAKULAM,KUNNATHUNAD,Chelamattom (CT),7.29,4151,16844,Aluva,10,Chelamattom,2,750,350,0,1,1,0,2,2,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,1,1
+ERNAKULAM,KUNNATHUNAD,Marampilly(CT),9.24,5368,23272,Aluva,8,Marampilly,2,1871,804,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,4,0,0,0,0,1,1,1,0,1
+ERNAKULAM,KUNNATHUNAD,Vazhakulam (CT),10.58,4377,18358,Aluva,10,Vazhakulam,1,415,20,0,2,2,2,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0
+ERNAKULAM,KUNNATHUNAD,Vengola (CT),18.07,7791,32697,Aluva,15,Vengola,2,1104,371,0,2,2,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,2,3
+ERNAKULAM,KUNNATHUNAD,Perumbavoor (CT),6.89,2272,9185,Aluva,16,Perumbavoor,1,5087,543,0,0,0,2,3,5,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,3,1,0,1,0,5,5,0,8,8
+ERNAKULAM,KUNNATHUNAD,Kunnathunad (CT),17.21,5377,22881,Ernakulam,15,Kunnathunad,2,590,130,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,2,7,1,2,3
+ERNAKULAM,KUNNATHUNAD,Puthencruz (CT),28.1,5638,22378,Thrippunithura,12,Puthencruz,2,1200,7037,0,5,5,1,3,4,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,3,8,11
+ERNAKULAM,ALUVA,Angamaly (M),28.24,8405,33465,Angamaly,0,Angamaly,1,1950,805,1,1,2,1,6,7,0,5,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,0,0,8,0,0,0,0,1,1,1,8,9
+ERNAKULAM,ALUVA,Aluva (M),6.46,5641,22428,Aluva,0,Aluva,1,2465,292,1,2,3,6,2,8,2,5,0,0,0,0,0,0,2,5,0,0,0,0,0,0,0,0,0,0,14,1,1,2,0,4,4,4,15,19
+ERNAKULAM,ALUVA,Kalady (CT),10.32,5139,20380,Angamaly,10,Kalady,2,547,172,0,3,3,0,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,0,3,3
+ERNAKULAM,ALUVA,Mattoor (CT),9.77,4728,18890,Angamaly,9,Mattoor,2,250,2,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0
+ERNAKULAM,ALUVA,Vadakkumbhagom (CT),7.19,2861,11727,Chowwara,5,Vadakkumbhagom,2,164,12,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1
+ERNAKULAM,ALUVA,Chowwara (CT),8.27,3579,14933,Chowwara,2,Chowwara,2,825,192,0,2,2,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,1,1,0,1
+ERNAKULAM,ALUVA,Nedumbassery (CT),19.74,7560,29706,Angamaly,4,Nedumbassery,2,750,250,0,1,1,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,0,6,6
+ERNAKULAM,ALUVA,Chengamanad (CT),15.88,7275,29576,Aluva,6,Chengamanad,2,756,163,0,4,4,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,0,2,2,0,6,6
+ERNAKULAM,ALUVA,Kizhakkumbhagom (CT),7.13,2714,10791,Chowwara,6,Kizhakumbhagom,2,96,5,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ERNAKULAM,ALUVA,Thekkumbhagom (CT),6.13,2574,10798,Chowwara,5,Thekkumbhagom,2,330,77,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+ERNAKULAM,ALUVA,Edathala (CT),34.99,18400,77811,Aluva,2,Edathala,2,2210,22,0,7,7,0,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,3,0,0,0,0,2,2,1,0,1
+ERNAKULAM,ALUVA,Choornikkara (CT),16.8,10403,43207,Aluva,4,Choornikkara,2,100,1191,0,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,2,0,0,0,0,2,2,1,6,7
+ERNAKULAM,PARAVUR,Paravur (M),9.02,8095,31503,Aluva,16,Paravur,1,2210,175,1,3,4,4,3,7,0,5,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,1,0,0,11,1,0,1,1,1,2,1,5,6
+ERNAKULAM,PARAVUR,Kochi (M Corp. + OG) (Part),6.36,5814,23155,Aluva,18,Kochi,1,530,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ERNAKULAM,PARAVUR,Puthenvelikkara (CT),25.51,8379,33372,Aluva,24,Puthenvelikkara,2,1373,83,1,0,1,0,1,1,0,1,0,0,0,0,0,0,1,1,0,0,2,1,0,0,0,0,0,0,6,0,0,0,0,1,1,1,3,4
+ERNAKULAM,PARAVUR,Chendamangalam (CT),10.83,7635,29326,Aluva,15,Chendamangalam,2,989,25,0,5,5,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,2,3
+ERNAKULAM,PARAVUR,Moothakunnam (CT),9.93,6963,27458,Aluva,24,Moothakunnanm,2,132,1028,0,0,0,0,2,2,0,1,0,0,0,0,0,0,2,1,0,0,0,0,0,1,0,0,0,0,5,0,0,0,0,0,0,0,5,5
+ERNAKULAM,PARAVUR,Vadakkekara (CT),6.48,5138,20571,Aluva,20,Vadakkekara,2,849,150,1,2,3,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,4
+ERNAKULAM,PARAVUR,Karumalloor (CT),19.01,7186,29805,Aluva,9,Karumalloor,2,1213,80,0,0,0,2,2,4,0,0,0,0,0,0,0,0,2,2,0,0,2,2,2,2,2,1,2,2,19,0,0,0,0,1,1,0,2,2
+ERNAKULAM,PARAVUR,Kadungalloor (CT),15.88,9512,39666,Aluva,6,Kadungalloor,2,1127,364,0,6,6,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,3
+ERNAKULAM,PARAVUR,Alangad (CT),21.02,11745,47329,Aluva,7,Alangad,2,600,15,0,1,1,1,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,5
+ERNAKULAM,PARAVUR,Kottuvally (CT),21,10671,42922,Aluva,19,Kottuvally,2,750,9,1,5,6,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,3,3
+ERNAKULAM,PARAVUR,Varappuzha (CT),10.01,6667,26750,Aluva,18,Varappuzha,2,750,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,2,3,1,0,1
+ERNAKULAM,PARAVUR,Eloor (CT),10.71,7901,31468,Aluva,15,Eloor,1,2000,500,0,3,3,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,2,2,4
+ERNAKULAM,KOCHI,Kochi (M Corp. + OG) (Part),45.47,65469,274350,Ernakulam,0,Kochi,1,14,0,4,0,4,2,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+ERNAKULAM,KOCHI,Njarackal (CT),8.63,5848,23760,Ernakulam,12,Njarackal,2,50,10,0,4,4,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,0,2,2
+ERNAKULAM,KOCHI,Elamkunnapuzha (CT),8.72,6554,26997,Ernakulam,12,Elamkunnapuzha,2,767,100,0,3,3,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,3
+ERNAKULAM,KOCHI,Puthuvype (CT),7.06,5677,23717,Ernakulam North,8,Puthuvype,2,983,50,0,3,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,5,6
+ERNAKULAM,KOCHI,Kumbalangy (CT),21.14,10034,42367,Aroor,1,Kumbalangy,2,1156,112,1,3,4,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,6,6
+ERNAKULAM,KANAYANNUR,Kalamassery (M),27,17844,71038,Kalamassery,0,Kalamassery,2,7400,472,1,24,25,2,1,3,2,0,0,0,0,0,0,0,2,0,0,0,1,0,2,0,1,1,2,0,11,0,0,0,0,3,3,3,10,13
+ERNAKULAM,KANAYANNUR,Kochi (M Corp.) (Part),55.3,87252,336048,Ernakulam ,0,Kochi,2,42312,4914,3,22,25,11,30,41,3,14,0,0,0,0,0,0,3,14,1,0,0,1,1,0,3,10,0,2,52,6,2,8,0,5,5,4,15,19
+ERNAKULAM,KANAYANNUR,Thrippunithura (M),18.69,18096,69390,Thrippunithura,0,Thrippunithura,1,4637,616,1,11,12,4,6,10,2,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1,0,6,0,1,1,0,2,2,2,12,14
+ERNAKULAM,KANAYANNUR,Kakkanad (CT),17.54,6422,25531,Ernakulam Town,5, Kakkanad,2,4355,391,0,1,1,0,4,4,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,4,0,0,0,0,0,0,1,2,3
+ERNAKULAM,KANAYANNUR,Vazhakkala (CT),12.87,12762,51242,Ernakulam,9,Vazhakkala,2,5009,186,0,3,3,0,2,2,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,3,0,0,6,1,0,1,0,1,1,0,2,2
+ERNAKULAM,KANAYANNUR ,Cheranallur (CT),10.8,7619,30594,Ernalulam Town,6,Cheranallur,2,1250,30,0,2,2,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,2,2,1,7,8
+ERNAKULAM,KANAYANNUR,Kadamakkudy (CT),12.92,4017,16295,Ernakulam Town,10,Kadamakkudy,2,268,11,0,1,1,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,4,4
+ERNAKULAM,KANAYANNUR,Mulavukad (CT),19.27,5315,21833,Ernakulam,2,Mulavukad,2,423,25,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,4
+ERNAKULAM,KANAYANNUR ,Thiruvankulam (CT),10.49,5919,23160,Thrippunithura,4,Thiruvankulam,2,638,47,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,1,0,2,2,0,4,4
+ERNAKULAM,KANAYANNUR,Kanayannur (CT),7.38,2346,9308,Kureekkad,2,Kanayannur,2,299,49,0,1,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+ERNAKULAM,KANAYANNUR,Kureekkad (CT),5.3,3448,13348,Kureekkad,0,Kureekad,2,590,40,0,0,0,1,2,3,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,2,1,0,1,0,1,1,1,0,1
+ERNAKULAM,KANAYANNUR,Maradu (CT),12.35,11065,44704,Ernakulam,8,Maradu,2,2000,600,0,5,5,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,2,2,1,4,5
+ERNAKULAM,KANAYANNUR,Kumbalam (CT),20.79,7214,29193,Ernakulam,12,Kumbalam,2,814,12,0,3,3,0,4,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,4,4
+ERNAKULAM,KANAYANNUR,Manakunnam (CT),24.86,9716,39538,Thrippunithura,5,Manakunnam,2,2000,1,0,1,1,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,4
+ERNAKULAM,KANAYANNUR,Mulamthuruthy (CT),21.48,6489,25852,Mulanthuruthy,0,Mulamthuruthy,2,501,163,0,3,3,1,1,2,0,2,0,1,0,1,0,1,0,2,0,0,0,0,0,0,0,1,0,0,8,0,0,0,0,2,2,0,4,4
+ERNAKULAM,KANAYANNUR,Amballur (CT),10.82,2801,11358,Kanjiramattom,2,Amballur,2,500,10,0,2,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,3,4
+ERNAKULAM,MUVATTUPUZHA,Muvattupuzha (M),13.18,7414,30397,Angamaly,33,Muvattupuzha,1,1000,50,1,30,31,5,2,7,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,4,4,5,8,13
+ERNAKULAM,MUVATTUPUZHA ,Velloorkunnam (CT),8.35,2760,11576,Ernakulam,32,Velloorkunnam,2,100,500,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1
+ERNAKULAM,KOTHAMANGALAM,Kothamangalam (M),40.04,9663,38837,Aluva,35,Kothamangalam,1,2058,180,1,1,2,1,7,8,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,1,0,0,6,0,5,5,0,5,5,0,6,6
+ERNAKULAM,KOTHAMANGALAM,Eramalloor (CT),19.85,7971,33829,Aluva,35,Eramalloor,2,3800,128,0,2,2,1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,0,0,0,0,3,0,0,0,0,0,0,0,1,1

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap');
+
+.loc {
+	left: 0px;
+	top: -50px;
+}
+
+.loc i {
+	position: absolute;
+}
+
+.loc_name {
+	width: 20%;
+	height: 40px;
+	padding: 10px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #333;
+	border: 3px solid #333;
+	text-align: center;
+}
+
+.first {
+	width: 20%;
+	border: 1px solid #fff;
+	top: -600px;
+	float: left;
+}
+
+.second {
+	width: 80%;
+	border-top: 1px solid #aaa;
+	top: -600px;
+	display: inline-block;
+}
+
+.history_title {
+	top: -40px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: 'Tajawal', sans-serif;
+	padding: 10px;
+	padding-left: 20px;
+	color: #333;
+}
+
+.history {
+	font-size: 20px;
+	font-weight: normal;
+	font-family: 'Dosis', sans-serif;
+	line-height: 40px;
+	padding: 10px;
+	color: #333;
+}
+
+.place
+{
+	width: 90%;
+	height: 260px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	top: -200px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.place_title {
+	padding-left: 30px;
+	padding-top: 20px;
+	font-size: 25px;
+	font-weight: normal;
+	height: 50px;
+	float: left;
+}
+
+.place_rank {
+	font-size: 25px;
+	padding-right: 20px;
+	padding-top: 20px;
+	height: 50px;
+	float: right;
+}
+
+.place_pop {
+	font-size: 18px;
+	font-family: 'Dosis', sans-serif;
+	padding-top: 20px;
+	height: 50px;
+	display: inline-block;
+}
+
+.place_bus {
+	padding-left: 30px;
+	font-size: 20px;
+	float: left;
+}
+
+.place_train {
+	font-size: 20px;
+	display: inline-block;
+}
+
+.place_features {
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	height: 100px;
+}
+
+input {
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	width: 50px;
+	height: 35px;
+}
+
+#rank {
+	border-radius: 50%;
+	width: 62px;
+	height: 60px;
+	font-weight: bolder;
+	font-size: 25px;
+	font-family: 'Piazzolla', serif;
+	background: #d4af37;
+}
+
+button {
+	border-radius: 75px;
+	background: #333;
+	height: 35px;
+	width: 30%;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Dosis', sans-serif;
+}
