@@ -27,7 +27,7 @@
 				<div class="col">
 					<div class="header_content d-flex flex-row align-items-center justify-content-start">
 						<div class="header_content_inner d-flex flex-row align-items-end justify-content-start">
-							<div class="logo"><a href="{% static 'index.html' %}">RESTOHUB</a></div>
+							<div class="logo"><a href="index.html">restohub</a></div>
 						</div>
 					</div>
 				</div>
@@ -64,8 +64,8 @@
 							<form action="{% url 'search' %}" method="post" class="home_search_form" id="home_search_form">
 								{% csrf_token %}
 								<div class="d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start">
-									<input type="text" name="place" class="search_input search_input_1" placeholder="City" required="required" style="width: 850px; border-radius: 74px;">
-									<button class="home_search_button" style="border-radius: 65px;">search</button>
+									<input type="text" name="place" class="search_input search_input_1" placeholder="Sub District" required="required" style="width: 850px; border-radius: 74px;">
+									<button class="home_search_button" style="border-radius: 74px;">search</button>
 								</div>
 							</form>
 						</div>
@@ -130,7 +130,7 @@
 <br>
 <footer>
 		<div class="col text-center">
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.restohub.com" target="_blank">AshlyShajan</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://www.restohub.com" target="_blank">Ashly Shajan</a>
         </div>
 <br>
 </footer>

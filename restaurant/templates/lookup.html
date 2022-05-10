@@ -1,0 +1,85 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>restohub</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="restaurant template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/bootstrap4/bootstrap.min.css' %}">
+<link href="{% static 'plugins/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/owl.theme.default.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/main_styles.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/responsive.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/place.css' %}">
+<link href="{% static 'https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap' %}" rel="stylesheet">
+<script src="{% static 'js/jquery-3.5.1.js' %}"></script>
+<style>
+    form {
+        width : 25%;
+        color : black;
+        font-size:20px;
+    }
+    .form-group input{
+        margin-top: 10px;
+        padding: 20px;
+        width: 750%;
+        outline: none;
+        border-radius: 5px;
+            color:0A4EE0;
+    }
+</style>
+</head>
+<body>
+    <div class="super_container">
+	
+        <!-- Header -->
+    
+        <header>
+            <div style="padding-top: 60px; padding-left: 80px; color: #333; font-weight: bold; font-size: 30px;">restohub</div>
+            <br>
+        </header>
+    
+         <div >
+            <form action="" method="post" class="form">
+                {% csrf_token %}
+                <h3>INSIGHTS</h3>
+                    <table cellspacing = "3" cellpadding = "1"> 
+                        <tr><td >Current Time:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ formatted_time }}" disabled></td> </tr> 
+                        <tr><td >Town Name</td><td class="form-group"><input type="text"  value="&nbsp;&nbsp;{{ location }}" disabled></td> </tr> 
+                        <tr><td >District:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ dist }}" disabled></td> </tr> 
+                        <tr><td>Sub District:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ sub_dist }}" disabled></td> </tr> 
+                        <tr><td>Area (sq. km.):</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ area }}" disabled></td> </tr> 
+                        <tr><td>Total Population of Town:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ population }}" disabled></td> </tr> 
+                        <tr><td>Foodies Zone Status:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ foodie_zone }}" disabled></td> </tr>
+                        <tr><td>Predicted Intrinsic Cuisine:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ must_buy_dish }}" disabled></td> </tr>
+                        <tr><td>Most Crowded Day:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ most_crowded }}" disabled></td> </tr>
+                        <tr><td>Predicted Risk Level:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ risk_level }}" disabled></td> </tr>
+                        <tr><td>Predicted Average Daily Foodies:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ avg_foodie }}" disabled></td> </tr>
+                        <tr><td>Predicted Average Daily Profit:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ avg_profit }}" disabled></td> </tr>
+                        <tr><td>Types of Restaurant:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ types }}" style="height: 100px" disabled></td> </tr>
+                        <tr><td>Best Selling Cuisines:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ best }}" style="height: 100px" disabled></td> </tr>
+                        <tr><td>Hot Trending Cuisines:</td><td class="form-group"><input type="text" value="&nbsp;&nbsp;{{ hot }}" style="height: 100px" disabled></td> </tr>
+                    </table>        
+            </form>
+        </div>  
+<!-- Footer -->
+	<footer>
+		<div class="col text-center">
+			Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Ashly Shajan</a>
+		</div>
+	</footer>
+
+<script src="{% static 'styles/bootstrap4/popper.js' %}"></script>
+<script src="{% static 'styles/bootstrap4/bootstrap.min.js' %}"></script>
+<script src="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
+<script src="{% static 'plugins/Isotope/isotope.pkgd.min.js' %}"></script>
+<script src="{% static 'plugins/scrollTo/jquery.scrollTo.min.js' %}"></script>
+<script src="{% static 'plugins/easing/easing.js' %}"></script>
+<script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
+</body>
+</html>

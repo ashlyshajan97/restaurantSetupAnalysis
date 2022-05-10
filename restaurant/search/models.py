@@ -21,3 +21,12 @@ class Place:
     bus: str
     railway: str
     pop_den: float
+
+class Restaurant:
+    name: str
+    rating: float
+    best_sale: str
+    hot_trend: str
+    daily_profit: int
+    daily_customers: int
+    crowded_day: str

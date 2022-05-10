@@ -14,9 +14,8 @@
 <link rel="stylesheet" type="text/css" href="{% static 'plugins/OwlCarousel2-2.2.1/animate.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'styles/main_styles.css' %}">
 <link rel="stylesheet" type="text/css" href="{% static 'styles/responsive.css' %}">
-<link rel="stylesheet" type="text/css" href="{% static 'styles/place.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styles/rest.css' %}">
 <link href="{% static 'https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;1,300&display=swap' %}" rel="stylesheet">
-<script src="{% static 'js/jquery-3.5.1.js' %}"></script>
 </head>
 <body>
 
@@ -31,7 +30,7 @@
 
 	<!-- Menu -->
 
-	
+    
 	<!-- Home -->
     <div class="home">
 		
@@ -59,7 +58,7 @@
 							<form action="{% url 'search' %}" method="post" class="home_search_form" id="home_search_form">
 								{% csrf_token %}
 								<div class="d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start">
-									<input type="text" name="place" class="search_input search_input_1" value="{{msg}}" placeholder="Sub District" required="required" style="width: 850px; border-radius: 74px;">
+									<input type="text" name="place" class="search_input search_input_1" placeholder="Sub District" required="required" style="width: 850px; border-radius: 74px;">
 									<button class="home_search_button" style="border-radius: 74px;">search</button>
 								</div>
 							</form>
@@ -86,63 +85,70 @@
 
 	<div  class="loc">
 		<i class="fa fa-map-marker" style="font-size: 30px; color: #555; text-align: center; padding-left: 20px;"></i>
-		<input type="text" class="loc_name" value="&nbsp;&nbsp;{{ location }}" disabled>
+		<input type="text" class="loc_name" value="&nbsp;&nbsp;{{ location }} Restaurants" disabled>
 	</div>
 
 <!-- Subplaces -->
-	{% for p in place %}
-	<br><br>
-    <div class="place" style="top: -40px;">
-		<div class="place_title" style="color:black;">{{ p.name }}</div>
-		<div class="place_pop" style="color:black;">
-			<span>
-				&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-bullseye" style="font-size: 14px"></i>
-				&nbsp;Population Density(people per km&#178;)&nbsp;&nbsp;
-				<input type="text" name="pop_den" value="{{ p.pop_den }}" disabled>
-			</span>
+<br>
+{% for r in rest %}
+	<div class="rest_grp">
+    <div class="rest" style="top: -40px;">
+		<div class="rest_title">{{ r.name }}</div>
+		<div class="rest_rating">
+			&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-bullseye" style="font-size: 14px"></i>
+			&nbsp;Overall Experience Rating&nbsp;&nbsp;
+			<input type="text" name="rank" value="{{ r.rating }}" id="rank" disabled>
 		</div>
-		<div class="place_rank"><input type="text" name="rank" value="{{ p.rank }}" id="rank" disabled></div>
 		<br><br>
-		<div class="place_bus">
-			<i class="fa fa-bus fa-lg" style="color: #39569c;" title="Bus Stop"></i>&nbsp;&nbsp;
-			<input type="text" name="bus" value="{{ p.bus }}" style="width: 150px; font-weight: normal;" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<div class="sub_section">
+			<input type="text" class="section_title" value="Cuisine" disabled>
 		</div>
-		<div class="place_train">
-			<i class="fa fa-train fa-lg" style="color: #39569c;" title="Railway Station"></i>&nbsp;&nbsp;
-			<input type="text" name="railway" value="{{ p.railway }}" style="width: 150px; font-weight: normal;" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-		</div>
-		<div class="place_features">
-			<i class="fa fa-university fa-lg" style="color: #71706e; font-size: 24px;" title="Colleges"></i>&nbsp;&nbsp;
-			<input type="text" name="college" value="{{ p.college }}" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<i class="fa fa-stethoscope fa-lg" style="color: #ef3038; font-size: 24px;" title="Health Centres"></i>&nbsp;&nbsp;
-			<input type="text" name="health_centre" value="{{ p.health_centre }}" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<i class="fa fa-flag-checkered fa-lg" style="color: #059033; font-size: 24px;" title="Stadiums"></i>&nbsp;&nbsp;
-			<input type="text" name="stadium" value="{{ p.stadium }}" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<i class="fa fa-film fa-lg" style="color: #e30b5d; font-size: 24px;" title="Movie Theaters"></i>&nbsp;&nbsp;
-			<input type="text" name="theatre" value="{{ p.theatre }}" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<i class="fa fa-building fa-lg" style="color: #fad6a5; font-size: 24px;" title="Institutions"></i>&nbsp;&nbsp;
-			<input type="text" name="auditorium" value="{{ p.auditorium }}" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<i class="fa fa-home fa-lg" style="color: #c2b280; font-size: 32px;" title="Number of Families"></i>&nbsp;&nbsp;
-			<input type="text" name="home" value="{{ p.home }}" disabled>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			<br><br>
-			<div class="button" style="text-align: center;">
-				<button style="background-color:white; "><a href="rest/{{ p.name }}">view restaurants</a></button>
-				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				<button style="background-color:white;"><a href="insights/{{ p.name }}">resto lookup</a></button>
+		<br>
+		<div class="section_content">
+			<div class="attr1">
+				<i class="fa fa-shopping-bag" style="color: #e30b5d;" title="Best Selling Cuisine"></i>&nbsp;&nbsp;
+				<input type="text" name="sale" value="{{ r.best_sale }}" style="width: 180px; font-weight: normal;" disabled>&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+			<div class="attr2">
+				<i class="fa fa-firefox" style="color: #e25822;" title="Hot Trending Cuisine"></i>&nbsp;&nbsp;
+				<input type="text" name="trend" value="{{ r.hot_trend }}" style="width: 180px; font-weight: normal;" disabled>
 			</div>
 		</div>
+		<div class="sub_section">
+			<input type="text" class="section_title" value="Ballpark Figure" disabled>
+		</div>
+		<br>
+		<div class="section_content">
+			<div class="attr1">
+				<i class="fa fa-users" style="color: #c2b280;" title="Average Daily Customers"></i>&nbsp;&nbsp;
+				<input type="text" name="customer" value="{{ r.daily_customers }}" style="width: 180px; font-weight: normal;" disabled>&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+			<div class="attr2">
+				<i class="fa fa-inr" style="color: #d4af37;" title="Average Daily Profit"></i>&nbsp;&nbsp;
+				<input type="text" name="profit" value="{{ r.daily_profit }}" style="width: 180px; font-weight: normal;" disabled>
+			</div>
+		</div>
+		<br><br>
+		<div class="sub_section">
+			<input type="text" class="attr3" value="Most Crowded Day:&nbsp;&nbsp;{{ r.crowded_day }}" disabled>
+		</div>
 	</div>
-	{% endfor %}
+	{% if forloop.counter|divisibleby:1 %}
+	</div>
+	{% endif %}
+{% endfor %}
 </div>
 </div>
 
-<!-- Footer -->
+
 	<footer>
 		<div class="col text-center">
 			Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Ashly Shajan</a>
 		</div>
 	</footer>
 
+
+<script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
 <script src="{% static 'styles/bootstrap4/popper.js' %}"></script>
 <script src="{% static 'styles/bootstrap4/bootstrap.min.js' %}"></script>
 <script src="{% static 'plugins/OwlCarousel2-2.2.1/owl.carousel.js' %}"></script>
